@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>簡易猜數字</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	body {
+		font-family: "Consolas", "標楷體";
+		background-color: #ffffff;
+		text-align: center;
+	}
+	h1 {
+		color: blue;
+	}
+	h2 {
+		color: red;
+	}
+	p, form, input {
+		font-family: "Consolas", "標楷體";
+		font-size: 24px;
+		color: rgb(0,0,255);
+	}
+</style>
+<script src="EasyGuess.js"></script>
+	<h1>FiftyMist's work</h1>
+	<br>
+	<br>
+	
+</head>
+
+<body>
+	<h2>猜數字 (答案介於1~100之間)</h2>
+	<form>
+		n =
+		<input type="text" value="" id="num">
+		<input type="button" value="送出" onClick="showResult()"> <br>
+		<p id="dis0" style="color:black">---------------------------------</p>
+		<p id="dis1"></p>
+	</form>
+
+</body>
+</html>
